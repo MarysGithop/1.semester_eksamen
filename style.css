@@ -1,3 +1,25 @@
+img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 header {
   display: flex;
   justify-content: space-between;
@@ -42,7 +64,7 @@ nav {
 }
 
 .menu a:hover {
-  color: #f00;
+  color: rgb(255, 182, 182);
 }
 
 .burger {
@@ -61,6 +83,9 @@ nav {
 .burger {
   display: none;
 }
+
+/* Web versionen begynder: */
+
 @media screen and (max-width: 800px) {
   .menu {
     display: none;
