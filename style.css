@@ -16,7 +16,7 @@ header {
 
 .frontpage1 {
   padding: 10%;
-  background-image: url(assets/forside.webp);
+  background-image: url(assets/forside.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
