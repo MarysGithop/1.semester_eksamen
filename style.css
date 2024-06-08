@@ -1,23 +1,64 @@
 .frontpage1 {
-  padding: 25%;
+  padding: 20%;
   background-image: url(assets/forside.webp);
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
 }
 .frontpagetext {
   color: white;
- 
+  font-family: "poppins";
+  font-size: 150px;
+}
+
+section {
+  background-image: url(assets/lysfigurer.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  padding: 40%;
+}
+
+.orangetema {
+
+  background-color: #f28d35;
+  padding: 100%;
 
 }
+
+.gultema {
+  background-color: #f2b731;
+  padding: 100%;
+}
+.rodtema {
+  background-color: #d94b2b;
+  padding: 100%;
+}
+
+.blatema {
+  background-color: #80b2f2;
+  padding: 100%;
+}
+
+h2 {
+  font-size: 200px;
+  font-family: "signika Negative";
+
+}
+
+
+
+
+
 
 footer {
   background-color: #8d2c56;
-  padding: 10%;
+  padding: 5%;
   display: flex;
-  color: wheat;
+  color: white;
+  font-family: "poppins";
+  font-size: large;
 }
-
+/*------------------------------------*/
 header {
   display: flex;
   justify-content: space-between;
