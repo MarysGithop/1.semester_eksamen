@@ -141,25 +141,58 @@ footer {
   padding: 9%;
   display: flex;
   margin: 5%;
+  position: relative;
 }
 
 h3 {
-  font-family: "poppins";
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 500px;
+  transform: rotate(90deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #8d2c56;
+  width: 200px;
+  padding: 50px;
   white-space: nowrap;
   overflow: visible;
-  transform: rotate(90deg);
-  z-index: 500;
-  position: absolute;
-    top: 0;
-   right: 59%; 
-    z-index: 500;
-    margin-top: 29%;
-    color: #8d2c56;
-    
-  
+  text-overflow: ellipsis;
 }
 
+.opgaver2 {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  margin-left: 30%;
+}
+
+.opgaver3 {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  margin-left: 30%;
+}
+
+.opgaver4 {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  margin-left: 30%;
+}
+
+.opgaver5 {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  margin-left: 30%;
+}
+
+.opgaverabout {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  margin-left: 30%;
+}
 /*------------------------------------*/
 header {
   display: flex;
@@ -178,7 +211,6 @@ header {
 nav {
   display: flex;
   align-items: center;
-  z-index: 1000;
 }
 
 .menu {
