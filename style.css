@@ -19,10 +19,8 @@ section {
 }
 
 .orangetema {
-
   background-color: #f28d35;
   padding: 100%;
-
 }
 
 .gultema {
@@ -40,15 +38,9 @@ section {
 }
 
 h2 {
-  font-size: 200px;
-  font-family: "signika Negative";
-
+  font-size: 150px;
+  font-family: "poppins";
 }
-
-
-
-
-
 
 footer {
   background-color: #8d2c56;
