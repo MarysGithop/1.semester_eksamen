@@ -24,6 +24,18 @@ header {
   color: white;
   font-family: "poppins";
   font-size: 150px;
+  animation: slide-in 2s forwards;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
 
 section {
@@ -33,7 +45,7 @@ section {
   background-image: url(assets/lysfigurer.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  height: fit-content;
+
   padding: 40%;
 }
 .temasektion {
@@ -50,9 +62,9 @@ section {
   padding: 100px;
   border: 1px solid #14328c;
   box-shadow: 10px 10px 5px #14328c;
-  margin: 70px;
+  margin: 67px;
   box-sizing: border-box;
-  text-align: center;
+  text-align: auto;
   width: 100%;
 }
 
@@ -63,9 +75,9 @@ section {
   padding: 100px;
   border: 1px solid #14328c;
   box-shadow: 10px 10px 5px #14328c;
-  margin: 70px;
+  margin: 67px;
   box-sizing: border-box;
-  text-align: center;
+  text-align: auto;
   width: 100%;
 }
 .rodtema {
@@ -75,9 +87,9 @@ section {
   padding: 100px;
   border: 1px solid #14328c;
   box-shadow: 10px 10px 5px #14328c;
-  margin: 70px;
+  margin: 67px;
   box-sizing: border-box;
-  text-align: center;
+  text-align: auto;
   width: 100%;
 }
 
@@ -88,9 +100,9 @@ section {
   padding: 100px;
   border: 1px solid #14328c;
   box-shadow: 10px 10px 5px #14328c;
-  margin: 70px;
+  margin: 67px;
   box-sizing: border-box;
-  text-align: center;
+  text-align: auto;
   width: 100%;
 }
 
@@ -106,35 +118,40 @@ a {
 footer {
   background-color: #8d2c56;
   padding: 5%;
-  display: flex;
   color: white;
   font-family: "poppins";
   font-size: 30px;
+  text-align: center;
   mix-blend-mode: difference;
+  word-spacing: 30px;
 }
 /*---------------nedenfor-temaer--------------------------------*/
 .tema2head {
   background-color: #f28d35;
   padding: 12%;
   display: flex;
+  animation: slide-in 2s forwards;
 }
 
 .tema3head {
   background-color: #f2b731;
   padding: 12%;
   display: flex;
+  animation: slide-in 2s forwards;
 }
 
 .tema4head {
   background-color: #d94b2b;
   padding: 12%;
   display: flex;
+  animation: slide-in 2s forwards;
 }
 
 .tema5head {
   background-color: #80b2f2;
   padding: 12%;
   display: flex;
+  animation: slide-in 2s forwards;
 }
 
 .me {
@@ -143,6 +160,7 @@ footer {
   display: flex;
   margin: 5%;
   position: relative;
+  animation: slide-in 2s forwards;
 }
 
 h3 {
@@ -160,6 +178,7 @@ h3 {
   text-overflow: ellipsis;
   margin-top: -9%;
 }
+
 /*---------------nedenfor-tema/opgaveopsætningen/layout-------------------------*/
 .opgaver2 {
   display: flex;
@@ -257,7 +276,7 @@ h3 {
   padding: 2%;
   margin-right: 70%;
   margin: 50px;
-  width: 10%;
+  width: 150px;
 
   border: none;
   border-radius: 5px;
@@ -275,7 +294,7 @@ h3 {
   padding: 2%;
   margin-right: 70%;
   margin: 50px;
-  width: 10%;
+  width: 150px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -292,7 +311,7 @@ h3 {
   padding: 2%;
   margin-right: 70%;
   margin: 50px;
-  width: 10%;
+  width: 150px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -309,7 +328,7 @@ h3 {
   padding: 2%;
   margin-right: 70%;
   margin: 50px;
-  width: 10%;
+  width: 150px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -340,7 +359,7 @@ h3 {
   animation: shake 1s infinite;
 }
 
-/*-------------Min tekst opsætning----------------------*/
+/*-------------Min tekst & billede opsætning i temaer----------------------*/
 
 p {
   font-size: x-large;
@@ -360,7 +379,15 @@ p {
   width: 70%;
 }
 
-/*------------------------------------*/
+.gallerit2 {
+  margin-bottom: 10%;
+}
+
+.kontaktt5 {
+  margin-bottom: 10%;
+}
+
+/*--------------Nav-----------------------*/
 header {
   display: flex;
   justify-content: space-between;
