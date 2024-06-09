@@ -158,7 +158,7 @@ h3 {
   overflow: visible;
   text-overflow: ellipsis;
 }
-
+/*---------------nedenfor-tema/opgaveopsætningen/layout-------------------------*/
 .opgaver2 {
   display: flex;
   flex-direction: column;
@@ -193,6 +193,60 @@ h3 {
   padding: 100px;
   margin-left: 30%;
 }
+/*-----------nedenfor-- videreknap------------------------*/
+
+.videre2 {
+  display: flex;
+  margin-left: 70%;
+  background-color: #f2b731;
+  padding: 2%;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+  box-shadow: 10px 10px 10px 10px #80b2f2;
+}
+
+.videre3 {
+  display: flex;
+  margin-left: 70%;
+  background-color: #d94b2b;
+  padding: 2%;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+  box-shadow: 10px 10px 10px 10px #80b2f2;
+}
+.videre4 {
+  display: flex;
+  margin-left: 70%;
+  background-color: #80b2f2;
+  padding: 2%;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+  box-shadow: 10px 10px 10px 10px #80b2f2;
+}
+.videre5 {
+  display: flex;
+  margin-left: 70%;
+  background-color: #d989a6;
+  padding: 2%;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+  box-shadow: 10px 10px 10px 10px #80b2f2;
+}
+.videre6 {
+  display: flex;
+  margin-left: 70%;
+  background-color: #14328c;
+  padding: 2%;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: x-large;
+  box-shadow: 10px 10px 10px 10px #80b2f2;
+}
+
 /*------------------------------------*/
 header {
   display: flex;
