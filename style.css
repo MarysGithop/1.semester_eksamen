@@ -208,7 +208,7 @@ h3 {
   white-space: nowrap;
   overflow: visible;
   text-overflow: ellipsis;
-  margin-top: -9%;
+  margin-top: -13%;
 }
 
 /*---------------nedenfor-tema/opgaveopsætningen/layout-------------------------*/
@@ -457,6 +457,7 @@ nav {
 
 .menu a {
   display: block;
+  font-family: "poppins";
   padding: 10px;
   color: #333;
   text-decoration: none;
