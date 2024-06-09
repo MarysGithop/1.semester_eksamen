@@ -110,42 +110,43 @@ footer {
   color: white;
   font-family: "poppins";
   font-size: 30px;
+  mix-blend-mode: difference;
 }
 /*---------------nedenfor-temaer--------------------------------*/
 .tema2head {
   background-color: #f28d35;
-  padding: 9%;
+  padding: 12%;
   display: flex;
 }
 
 .tema3head {
   background-color: #f2b731;
-  padding: 9%;
+  padding: 12%;
   display: flex;
 }
 
 .tema4head {
   background-color: #d94b2b;
-  padding: 9%;
+  padding: 12%;
   display: flex;
 }
 
 .tema5head {
   background-color: #80b2f2;
-  padding: 9%;
+  padding: 12%;
   display: flex;
 }
 
 .me {
   background-color: #d989a6;
-  padding: 9%;
+  padding: 12%;
   display: flex;
   margin: 5%;
   position: relative;
 }
 
 h3 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "poppins";
   font-size: 500px;
   transform: rotate(90deg);
   position: absolute;
@@ -153,10 +154,11 @@ h3 {
   left: 0;
   color: #8d2c56;
   width: 200px;
-  padding: 50px;
+  padding: 70px;
   white-space: nowrap;
   overflow: visible;
   text-overflow: ellipsis;
+  margin-top: -9%;
 }
 /*---------------nedenfor-tema/opgaveopsætningen/layout-------------------------*/
 .opgaver2 {
@@ -201,9 +203,9 @@ h3 {
   background-color: #f2b731;
   padding: 2%;
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "poppins";
   font-size: x-large;
-  box-shadow: 10px 10px 10px 10px #80b2f2;
+  box-shadow: 10px 10px 10px 10px #14328c;
 }
 
 .videre3 {
@@ -212,9 +214,9 @@ h3 {
   background-color: #d94b2b;
   padding: 2%;
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "poppins";
   font-size: x-large;
-  box-shadow: 10px 10px 10px 10px #80b2f2;
+  box-shadow: 10px 10px 10px 10px #14328c;
 }
 .videre4 {
   display: flex;
@@ -222,9 +224,9 @@ h3 {
   background-color: #80b2f2;
   padding: 2%;
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "poppins";
   font-size: x-large;
-  box-shadow: 10px 10px 10px 10px #80b2f2;
+  box-shadow: 10px 10px 10px 10px #14328c;
 }
 .videre5 {
   display: flex;
@@ -232,9 +234,9 @@ h3 {
   background-color: #d989a6;
   padding: 2%;
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "poppins";
   font-size: x-large;
-  box-shadow: 10px 10px 10px 10px #80b2f2;
+  box-shadow: 10px 10px 10px 10px #14328c;
 }
 .videre6 {
   display: flex;
@@ -242,9 +244,23 @@ h3 {
   background-color: #14328c;
   padding: 2%;
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "poppins";
   font-size: x-large;
-  box-shadow: 10px 10px 10px 10px #80b2f2;
+  box-shadow: 10px 10px 10px 10px #14328c;
+}
+
+/*-------------Min tekst opsætning----------------------*/
+
+p {
+  font-size: x-large;
+  font-family: "poppins";
+  padding: 15%;
+  margin-left: 5%;
+}
+.lysfig {
+  display: flex;
+  align-self: flex-end;
+  width: 70%;
 }
 
 /*------------------------------------*/
