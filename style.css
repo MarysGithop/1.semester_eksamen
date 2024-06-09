@@ -248,6 +248,97 @@ h3 {
   font-size: x-large;
   box-shadow: 10px 10px 10px 10px #14328c;
 }
+/*----------temaknapper/links til sites------------------*/
+.t2knap {
+  color: white;
+  background-color: #f28d35;
+  font-family: "poppins";
+  font-size: x-large;
+  padding: 2%;
+  margin-right: 70%;
+  margin: 50px;
+  width: 10%;
+
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+
+.t3knap {
+  color: white;
+  background-color: #f2b731;
+  font-family: "poppins";
+  font-size: x-large;
+  padding: 2%;
+  margin-right: 70%;
+  margin: 50px;
+  width: 10%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+
+.t4knap {
+  color: white;
+  background-color: #d94b2b;
+  font-family: "poppins";
+  font-size: x-large;
+  padding: 2%;
+  margin-right: 70%;
+  margin: 50px;
+  width: 10%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+
+.t5knap {
+  color: white;
+  background-color: #80b2f2;
+  font-family: "poppins";
+  font-size: x-large;
+  padding: 2%;
+  margin-right: 70%;
+  margin: 50px;
+  width: 10%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  animation: shake 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.shake-button:hover {
+  animation: shake 1s infinite;
+}
 
 /*-------------Min tekst opsætning----------------------*/
 
@@ -258,6 +349,12 @@ p {
   margin-left: 5%;
 }
 .lysfig {
+  display: flex;
+  align-self: flex-end;
+  width: 70%;
+}
+
+.morkfig {
   display: flex;
   align-self: flex-end;
   width: 70%;
