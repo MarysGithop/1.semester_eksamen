@@ -85,59 +85,65 @@ section {
 }
 
 .orangetema {
-  display: grid;
+  display: flex;
   background-color: #f28d35;
   width: 500px;
-  padding: 100px;
+  padding: 80px;
   border: 1px solid #14328c;
   box-shadow: 10px 10px 5px #14328c;
   margin: 67px;
   box-sizing: border-box;
-  text-align: auto;
   width: 100%;
-  cursor: pointer;
+   align-self: flex-start;
+   margin-left: -50%;
+ 
 }
 
 .gultema {
-  display: grid;
+  display: flex;
   background-color: #f2b731;
   width: 500px;
-  padding: 100px;
+  padding: 80px;
   border: 1px solid #14328c;
   box-shadow: 10px 10px 5px #14328c;
   margin: 67px;
   box-sizing: border-box;
-  text-align: auto;
   width: 100%;
+  align-self: flex-end;
+   margin-left: 50%;
 }
 .rodtema {
-  display: grid;
+  display: flex;
   background-color: #d94b2b;
   width: 500px;
-  padding: 100px;
+  padding: 80px;
   border: 1px solid #14328c;
   box-shadow: 10px 10px 5px #14328c;
   margin: 67px;
   box-sizing: border-box;
-  text-align: auto;
+   align-self: flex-end;
+   margin-left: -50%;
+
   width: 100%;
 }
 
 .blatema {
-  display: grid;
+  display: flex;
   background-color: #80b2f2;
   width: 500px;
-  padding: 100px;
+  padding: 80px;
   border: 1px solid #14328c;
   box-shadow: 10px 10px 5px #14328c;
   margin: 67px;
   box-sizing: border-box;
-  text-align: auto;
+   align-self: flex-end;
+   margin-left: 50%;
+
   width: 100%;
 }
 
 h2 {
-  font-size: 150px;
+  font-size: 70px;
   font-family: "poppins";
 }
 
